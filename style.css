@@ -1,0 +1,51 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.wrap {
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftside, .rightside {
+    width: 45%;
+}
+
+.heading {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading span {
+    color: tomato;
+    font-size: 18px;
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.wrap textarea {
+    width: 100%;
+    height: 600px;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.wrap button {
+    width: 3%;
+    margin-top: 47.5px;
+    height: 600px;
+}
